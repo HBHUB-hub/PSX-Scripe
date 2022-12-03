@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
     
 })
-_G.Key = "abcd"
+_G.Key = "HerobrineHub"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
