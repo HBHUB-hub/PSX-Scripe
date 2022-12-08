@@ -1,4 +1,4 @@
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/herobrine29584/PSX-Scripe/main/local-tap')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/Dupe-main')))()
 local Window = OrionLib:MakeWindow({Name = "HB HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "HB HUB"})
 local Tab = Window:MakeTab({
     Name = "Key",
