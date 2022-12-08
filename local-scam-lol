@@ -7,6 +7,5 @@ local MainSection = Main:NewSection("trade Scam")
 
 
 MainSection:NewButton("click trade scam", "Script BY Scriptpsx", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2"))()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main3"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-all-main"))()
 end)
