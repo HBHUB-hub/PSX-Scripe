@@ -34,7 +34,7 @@ Tab:AddButton({
     Callback = function()
               print("button pressed", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-all-main"))()
-end)
+end) 
       end  
 
         
