@@ -17,14 +17,6 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
 })
 
-function MakeScriptHub()
-    local Window = OrionLib:MakeWindow({Name = "HB Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "HB Hub"})
-local Tab = Window:MakeTab({
-    Name = "Dupe",
-    Icon = "rbxassetid://4483345998",
-    PremiumOnly = false
-})
-
 --[[
 Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
