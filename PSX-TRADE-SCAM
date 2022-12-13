@@ -2,7 +2,6 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HBH
 local Window = OrionLib:MakeWindow({Name = "HB HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "HB HUB"})
 local Tab = Window:MakeTab({
     Name = "Key",
-    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
     
 })
@@ -13,7 +12,6 @@ function MakeScriptHub()
     local Window = OrionLib:MakeWindow({Name = "HB Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "HB Hub"})
 local Tab = Window:MakeTab({
     Name = "Trade Scam",
-    Icon = "rbxassetid://4483345998",
     PremiumOnly = false
 })
 
