@@ -1,4 +1,4 @@
-lolocal OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/local-tap')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/local-tap')))()
 local Window = OrionLib:MakeWindow({Name = "HB HUB", HidePremium = false, SaveConfig = true, ConfigFolder = "HB HUB"})
 local Tab = Window:MakeTab({
     Name = "Key",
@@ -6,7 +6,7 @@ local Tab = Window:MakeTab({
     PremiumOnly = false
     
 })
-_G.Key = "k12asHub832"
+_G.Key = "HGyg234Hub87je"
 _G.KeyInput = "string"
 
 function MakeScriptHub()
@@ -33,7 +33,7 @@ Tab:AddButton({
     Name = "Start Scam!",
     Callback = function()
               print("button pressed")
-              loadstring(game:HttpGet("https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-all-main"))()
+              loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2' ))()
       end  
 
         
@@ -61,4 +61,4 @@ Tab:AddButton({
       end    
 })
 
-HBHUB:Init()
+OrionLib:Init()
