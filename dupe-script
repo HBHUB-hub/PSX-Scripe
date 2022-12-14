@@ -4,7 +4,7 @@ local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
 local Off = Instance.new("TextButton")
 local _10Minutes = Instance.new("TextButton")
 local _20Minutes = Instance.new("TextButton")
-local On = Instance.new("TextButton")
+local _30Minutes = Instance.new("TextButton")
 
 --Properties:
 
@@ -28,15 +28,15 @@ DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
 DupedMethodMadeByPr4ston.TextSize = 14.000
 
-Off.Name = "Off"
-Off.Parent = main
-Off Scam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-Off Scam.Position = UDim2.new(0, 0, 0.204379559, 0)
-Off Scam.Size = UDim2.new(0, 214, 0, 50)
-Off Scam.Font = Enum.Font.SourceSans
-Off Scam.Text = "RESET"
-Off Scam.TextColor3 = Color3.fromRGB(0, 0, 0)
-Off Scam.TextSize = 40.000
+_30Minutes.Name = "On"
+_30Minutes.Parent = main
+_30Minutes.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+_30Minutes.Position = UDim2.new(0, 0, 0.204379559, 0)
+_30Minutes.Size = UDim2.new(0, 214, 0, 50)
+_30Minutes.Font = Enum.Font.SourceSans
+_30Minutes.Text = "RESET"
+_30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
+_30Minutes.TextSize = 40.000
 
 On.Name = "On"
 On.Parent = main
