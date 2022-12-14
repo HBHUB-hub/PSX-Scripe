@@ -48,5 +48,5 @@ _30Minutes.Text = "30 Minutes"
 _30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
 _30Minutes.TextSize = 46.000
 _30Minutes.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-script2'))()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2'))()
 end)
