@@ -1,7 +1,7 @@
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
-local RESET = Instance.new("TextButton")
+local Off = Instance.new("TextButton")
 local _10Minutes = Instance.new("TextButton")
 local _20Minutes = Instance.new("TextButton")
 local _30Minutes = Instance.new("TextButton")
@@ -28,25 +28,25 @@ DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
 DupedMethodMadeByPr4ston.TextSize = 14.000
 
-RESET.Name = "Off"
-RESET.Parent = main
-RESET.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
-RESET.Size = UDim2.new(0, 214, 0, 50)
-RESET.Font = Enum.Font.SourceSans
-RESET.Text = "RESET"
-RESET.TextColor3 = Color3.fromRGB(0, 0, 0)
-RESET.TextSize = 40.000
+Off.Name = "Off"
+Off.Parent = main
+Off Scam.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+Off Scam.Position = UDim2.new(0, 0, 0.204379559, 0)
+Off Scam.Size = UDim2.new(0, 214, 0, 50)
+Off Scam.Font = Enum.Font.SourceSans
+Off Scam.Text = "RESET"
+Off Scam.TextColor3 = Color3.fromRGB(0, 0, 0)
+Off Scam.TextSize = 40.000
 
-_30Minutes.Name = "On"
-_30Minutes.Parent = main
-_30Minutes.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
-_30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
-_30Minutes.Size = UDim2.new(0, 213, 0, 65)
-_30Minutes.Font = Enum.Font.SourceSans
-_30Minutes.Text = "30 Minutes"
-_30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
-_30Minutes.TextSize = 46.000
-_30Minutes.MouseButton1Down:connect(function()
+On.Name = "On"
+On.Parent = main
+On.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
+On.Position = UDim2.new(0, 0, 0.746376812, 0)
+On.Size = UDim2.new(0, 213, 0, 65)
+On.Font = Enum.Font.SourceSans
+On.Text = "30 Minutes"
+On.TextColor3 = Color3.fromRGB(0, 0, 0)
+On.TextSize = 46.000
+On.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2'))()
 end)
