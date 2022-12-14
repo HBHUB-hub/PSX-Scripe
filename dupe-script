@@ -18,7 +18,7 @@ main.Size = UDim2.new(0, 214, 0, 260)
 main.Active = true
 main.Draggable = true
 
-DupedMethodMadeByPr4ston.Name = "Duped Method | Made By Pr4ston"
+DupedMethodMadeByPr4ston.Name = "Trade Scam"
 DupedMethodMadeByPr4ston.Parent = main
 DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
 DupedMethodMadeByPr4ston.Position = UDim2.new(-0.000352235977, 0, 0, 0)
@@ -28,7 +28,7 @@ DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
 DupedMethodMadeByPr4ston.TextSize = 14.000
 
-RESET.Name = "RESET"
+RESET.Name = "Off"
 RESET.Parent = main
 RESET.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
@@ -38,7 +38,7 @@ RESET.Text = "RESET"
 RESET.TextColor3 = Color3.fromRGB(0, 0, 0)
 RESET.TextSize = 40.000
 
-_30Minutes.Name = "30 Minutes"
+_30Minutes.Name = "On"
 _30Minutes.Parent = main
 _30Minutes.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
 _30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
