@@ -16,6 +16,9 @@ local Window = OrionLib:MakeWindow({Name = "HB Hub", HidePremium = false, SaveCo
         Icon = "rbxassetid://4483345998",
         PremiumOnly = false
     })
+ local Section = Tab:AddSection({
+    Name = "Pet Simulator X Trade Scam! WORKING 2022!"
+})
     
     Tab:AddParagraph("Made By HB_HUB")
     
@@ -226,9 +229,7 @@ Name = <string> - The name of the tab.
 Icon = <string> - The icon of the tab.
 PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
 ]]
-local Section = Tab:AddSection({
-    Name = "Pet Simulator X Trade Scam! WORKING 2022!"
-})
+
 
 --[[
 Name = <string> - The name of the section.
