@@ -25,10 +25,11 @@ local OrionLib = {
 	SaveCfg = false
 }
 
-
+--Feather Icons https://github.com/evoincorp/lucideblox/tree/master/src/modules/util - Created by 7kayoh
+local Icons = {}
 
 local Success, Response = pcall(function()
-	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://pastebin.com/raw/wMTHWTh5")).icons
+	Icons = HttpService:JSONDecode(game:HttpGetAsync("https://raw.githubusercontent.com/evoincorp/lucideblox/master/src/modules/util/icons.json")).icons
 end)
 
 if not Success then
@@ -222,7 +223,7 @@ local function LoadCfg(Config)
 				end    
 			end)
 		else
-			warn("HB_HUB Library Config Loader - Could not find ", a ,b)
+			warn("Orion Library Config Loader - Could not find ", a ,b)
 		end
 	end)
 end
