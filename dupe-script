@@ -4,7 +4,7 @@ local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
 local Off = Instance.new("TextButton")
 local _10Minutes = Instance.new("TextButton")
 local _20Minutes = Instance.new("TextButton")
-local _30Minutes = Instance.new("TextButton")
+local On = Instance.new("TextButton")
 
 --Properties:
 
