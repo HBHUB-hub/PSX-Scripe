@@ -18,33 +18,33 @@ main.Size = UDim2.new(0, 214, 0, 160)
 main.Active = true
 main.Draggable = true
  
-DupedMethodMadeByPr4ston.Name = "Duped Method |By Yajza"
+DupedMethodMadeByPr4ston.Name = "Trade scam Method |By HB_HUB"
 DupedMethodMadeByPr4ston.Parent = main
 DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
 DupedMethodMadeByPr4ston.Position = UDim2.new(-0.001752235977, 0, -0.16, 2)
 DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
 DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
-DupedMethodMadeByPr4ston.Text = "Duped Method |By Yajza"
+DupedMethodMadeByPr4ston.Text = "Trade scam Method |By HB_HUB"
 DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(1, 1, 1)
 DupedMethodMadeByPr4ston.TextSize = 14.000
  
-RESET.Name = "Dupe"
+RESET.Name = "On"
 RESET.Parent = main
 RESET.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
 RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
 RESET.Size = UDim2.new(0, 214, 0, 50)
 RESET.Font = Enum.Font.SourceSans
-RESET.Text = "Dupe"
+RESET.Text = "On"
 RESET.TextColor3 = Color3.fromRGB(255, 255, 255)
 RESET.TextSize = 40.000
  
-_30Minutes.Name = "Put Gems Bank and Rejoin"
+_30Minutes.Name = "Off"
 _30Minutes.Parent = main
 _30Minutes.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
 _30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
 _30Minutes.Size = UDim2.new(0, 213, 0, 65)
 _30Minutes.Font = Enum.Font.SourceSans
-_30Minutes.Text = "Put Gems Bank and Rejoin"
+_30Minutes.Text = "Off"
 _30Minutes.TextColor3 = Color3.fromRGB(255, 255, 255)
 _30Minutes.TextSize = 23.000
 On.MouseButton1Down:connect(function()
