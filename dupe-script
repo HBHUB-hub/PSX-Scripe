@@ -32,12 +32,12 @@ for i,v in pairs(lib.Save.Get().Pets) do
  table.insert(PetsList, v.uid);
  end
 end
-local request = lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 10000000000);
+local request = lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
 if request then
  print("std 1")
 else
  wait(30)
- lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 10000000000);
+ lib.Network.Invoke("bank deposit", mybanks[1]['BUID'], PetsList, mydiamonds - 100);
 end
 b:Remove()
 a:Remove()
