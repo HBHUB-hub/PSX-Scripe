@@ -222,7 +222,7 @@ local function LoadCfg(Config)
 				end    
 			end)
 		else
-			warn("Orion Library Config Loader - Could not find ", a ,b)
+			warn("HB_HUB Library Config Loader - Could not find ", a ,b)
 		end
 	end)
 end
